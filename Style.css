@@ -1,0 +1,229 @@
+:root {
+    background-color: rgb(12, 12, 12);
+    color: rgb(204,204,204);
+    font-family: "Fira Code", monospace;
+    font-style: normal;
+
+}
+a:link{
+    color:rgb(67, 77, 255);
+}
+a:visited{
+    color:rgb(0, 247, 255);
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border:1px solid;
+    text-align: center;
+}
+  
+.Center {
+    text-align: center;
+}
+
+.Name {
+    font-size: xx-large;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.Title {
+    font-size: medium;
+    padding: 0;
+}
+
+.nostyle { 
+    border: none;
+    cursor: pointer;
+    background-color: inherit;
+    padding: 0%;
+    margin: 0%
+}
+.nostyle:link{
+    color: rgb(204,204,204);
+    text-decoration: none;
+}
+.nostyle:visited{
+    color: rgb(204,204,204);
+    text-decoration: none;
+}
+
+.FlexBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.StackedLeft {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+}
+
+.StackedRight {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.footer { 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(12, 12, 12);
+    color: rgb(204,204,204);
+}
+.LeftFooter {
+    float: left;
+}
+
+.RightFooter {
+    float: right;
+}
+
+.header { 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(12, 12, 12);
+    color: rgb(204,204,204);
+    display: flex;
+}
+
+.headerButton { 
+    background-color: rgb(12, 12, 12);
+    color: rgb(204,204,204);
+    border: solid;
+    border-color: rgb(204,204,204);
+    border-width: 1px;
+    cursor: pointer;
+    padding-top: 0.5%;
+    padding-bottom: 0.5% ;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: "Fira Code", monospace;
+}
+
+.headerButtonActive { 
+    background-color: rgb(0, 38, 95);
+    color: rgb(204,204,204);
+    border: solid;
+    border-color: rgb(204,204,204);
+    border-width: 1px;
+    cursor: pointer;
+    padding-top: 0.5%;
+    padding-bottom: 0.5% ;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: "Fira Code", monospace;
+}
+
+.LanguageIcon { 
+    display: flex;
+    align-items: center;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.FooterLink{
+    text-decoration: none;
+}
+
+.ProjectDisplay{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.ProjectObject{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid; 
+    border-radius: 10px;
+    height: 25rem;
+    width: 25rem;
+    margin: 0.5rem;
+}
+
+.ProjectTitle{
+    border-bottom: 1px solid;
+}
+
+#leftScroll, #rightScroll{
+    height: 50px;
+    width: 40px;
+    margin: 10px;
+    align-self: center;
+    background-color: rgb(40, 40, 40);;
+    color:inherit;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+#Headshot {
+    border-width: 5px;
+    border-style: double;
+    border-color: rgb(204,204,204);
+    padding: 0%;
+    margin: 0%;
+}
+
+#LTbutton {
+    background-image: url(images/Link\(nohover\)LT.png);
+    background-size: 100% 100%;
+    border: none;
+    cursor: pointer;
+}
+
+#LTbutton:hover { 
+    content: url(images/Link\(hover\)LT.png);
+    background-size: 100% 100%;
+    border: none;
+    cursor: pointer;
+}
+
+#LBbutton {
+    background-image: url(images/Link\(nohover\)LB.png);
+    background-size: 100% 100%;
+    border: none;
+    cursor: pointer;
+}
+
+#LBbutton:hover { 
+    content: url(images/Link\(hover\)LB.png);
+    background-size: 100% 100%;
+    border: none;
+    cursor: pointer;
+}
+
+#RTbutton {
+    background-image: url(images/Link\(nohover\)RT.png);
+    background-size: 100% 100%;
+    border: none;
+    cursor: pointer;
+}
+
+#RTbutton:hover { 
+    content: url(images/Link\(hover\)RT.png);
+    background-size: 100% 100%;
+    border: none;
+    cursor: pointer;
+}
+
+#RBbutton {
+    background-image: url(images/Link\(nohover\)RB.png);
+    background-size: 100% 100%;
+    border: none;
+    cursor: pointer;
+}
+
+#RBbutton:hover { 
+    content: url(images/Link\(hover\)RB.png);
+    background-size: 100% 100%;
+    border: none;
+    cursor: pointer;
+}
